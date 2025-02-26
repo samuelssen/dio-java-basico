@@ -9,7 +9,7 @@ public class ContaTerminal {
         String agencia = "067-8";
         String nomeCliente = "MARIO ANDRADE"; 
         double saldo = 237.48;
-        //Exibir mensagens para o nosso usuário 
+         
         System.out.println("Digite sua agencia: ");
         String agenciaCliente = scanner.next();
 
@@ -19,7 +19,7 @@ public class ContaTerminal {
         else { 
             System.out.println("Agencia digitada não existe! ");
         }
-        //Obter pela scanner os valores digitados no terminal 
+         
         scanner.close();
     }
 }
